@@ -17,6 +17,8 @@ You can download the dataset from [this link](https://www.dropbox.com/s/7dgey0lx
 
 ## Files for each object
 
+The ZIP file contains 5 directories named `book`, `dinosaur`, `lemon`, `pig`, and `stone` each of which has the following files.
+
 * `calib.npz`
   * `K`: Intrinsic parameter (same for L and R).
   * `Rmat_W2{L,R}` and `Tvec_W2{L,R}`: Extrinsic parameter to transform a point `X` in WCS to CCS by `Rmat_W2{L,R}` @ `X` + `Tvec_W2{L,R}`.
@@ -24,8 +26,8 @@ You can download the dataset from [this link](https://www.dropbox.com/s/7dgey0lx
 * `gt.npz`
   * `ps_normal_{L,R}`: Pixel-wise normal directions in L and R camera frames measured by photometric-stereo with diffuse coating. 
   * `sl_correspondence_{L2R,R2L}`: Pixel-wise correspondences (left-to-right and right-to-left) measured by structured-light.
-  * `mask_L`: Mask to indicate the valid pixels in L.
-* `ours.npz`
+  * `mask_L`: Mask to indicate the valid pixels in L image.
+* `est.npz`
   * `est_normal`: Estimated normal in L camera frame.
   * `est_disparity`: Estimated disparity in L camera frame.
   * `est_specular_albedo`: Estimated specular albedo in L camera frame. 
@@ -47,7 +49,6 @@ G\ G- B\ B-
 ## Sample code
 
 The following samples are provided to explain how to use the dataset.
-
 
 ### Demosaicing
 ```
