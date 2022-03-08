@@ -48,7 +48,7 @@ G\ G- B\ B-
 
 ## Sample code
 
-The following samples are provided to explain how to use the dataset.
+The following samples are provided to explain how to use the dataset.  Please use `requirements.txt` or `pnstereo.def` to find the Python packages or to reproduce our [Singularity](https://sylabs.io/) image.
 
 ### Demosaicing
 ```
