@@ -1,0 +1,19 @@
+Bootstrap: docker
+From: python:3.10-slim-buster
+
+%files
+    requirements.txt /requirements.txt
+
+%post
+    export DEBIAN_FRONTEND=noninteractive DEBCONF_NONINTERACTIVE_SEEN=true
+
+    apt-get -y update
+    apt-get -y install vim git libgl1-mesa-dev libglib2.0-0
+
+    python3 -m pip install --upgrade pip
+    python3 -m pip install -r requirements.txt
+    #python3 -m pip install opencv-python numpy matplotlib pipreqs 
+
+%environment
+    export PYTHONNOUSERSITE=1
+
