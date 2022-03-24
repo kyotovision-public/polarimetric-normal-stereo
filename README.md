@@ -18,7 +18,7 @@ The dataset contains 5 objects, *book*, *dinosaur*, *lemon*, *pig*, and *stone*.
 
 ## Download
 
-You can download the dataset from [this link](https://www.dropbox.com/s/7dgey0lx8oyulzd/data.zip?dl=0).
+You can download the dataset from [this link](https://drive.google.com/file/d/1mse2uqCBpwPnk4XgS1vE9IYh4NBK2cFe/view?usp=sharing).
 
 ## Files for each object
 
