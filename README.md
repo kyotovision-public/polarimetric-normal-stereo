@@ -2,9 +2,14 @@
 
 This repository provides the dataset captured for [our CVPR paper](https://openaccess.thecvf.com/content/CVPR2021/html/Fukao_Polarimetric_Normal_Stereo_CVPR_2021_paper.html):
 ```
-Polarimetric Normal Stereo
-Yoshiki Fukao, Ryo Kawahara, Shohei Nobuhara, and Ko Nishino,
-in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021, pp. 682-690
+@InProceedings{Fukao_2021_CVPR,
+    author    = {Fukao, Yoshiki and Kawahara, Ryo and Nobuhara, Shohei and Nishino, Ko},
+    title     = {Polarimetric Normal Stereo},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2021},
+    pages     = {682-690}
+}
 ```
 
 The dataset contains 5 objects, *book*, *dinosaur*, *lemon*, *pig*, and *stone*.  Each object is captured by stereo [Lucid TRI050S-QC](https://thinklucid.com/ja/product/triton-5-mp-polarization-camera/) cameras.  Surface normals by photometric-stereo and correspondences by structured-light (Gray code) are also provided for reference.
