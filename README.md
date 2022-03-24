@@ -1,6 +1,7 @@
 # Polarimetric Normal Stereo Dataset
 
-This repository provides the dataset captured for [our CVPR paper](https://openaccess.thecvf.com/content/CVPR2021/html/Fukao_Polarimetric_Normal_Stereo_CVPR_2021_paper.html):
+This repository provides the dataset captured for our paper ["Polarimetric Normal Sterep"](https://openaccess.thecvf.com/content/CVPR2021/html/Fukao_Polarimetric_Normal_Stereo_CVPR_2021_paper.html) in CVPR 2021.
+If you find our work useful in your research please consider citing our paper.
 ```
 @InProceedings{Fukao_2021_CVPR,
     author    = {Fukao, Yoshiki and Kawahara, Ryo and Nobuhara, Shohei and Nishino, Ko},
@@ -68,17 +69,4 @@ $ python3 sample_triangulate.py ./book out.ply
 ```
 This sample triangulates the object surface points using the ground-truth correspondences.  Open `out.ply` by [meshlab](https://www.meshlab.net/) or similar software.
 
-
-## Reference
-By using the dataset, you agree to cite the following paper.
-```
-@InProceedings{fukao2021polarimetric,
-    author    = {Fukao, Yoshiki and Kawahara, Ryo and Nobuhara, Shohei and Nishino, Ko},
-    title     = {Polarimetric Normal Stereo},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month     = {June},
-    year      = {2021},
-    pages     = {682-690}
-}
-```
 
