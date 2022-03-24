@@ -1,6 +1,6 @@
 # Polarimetric Normal Stereo Dataset
 
-This repository provides the dataset captured for our paper ["Polarimetric Normal Sterep"](https://openaccess.thecvf.com/content/CVPR2021/html/Fukao_Polarimetric_Normal_Stereo_CVPR_2021_paper.html) in CVPR 2021.
+This repository provides the dataset captured for our paper ["Polarimetric Normal Stereo"](https://openaccess.thecvf.com/content/CVPR2021/html/Fukao_Polarimetric_Normal_Stereo_CVPR_2021_paper.html) in CVPR 2021.
 If you find our work useful in your research please consider citing our paper.
 ```
 @InProceedings{Fukao_2021_CVPR,
