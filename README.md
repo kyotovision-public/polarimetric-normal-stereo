@@ -13,6 +13,8 @@ If you find our work useful in your research please consider citing our paper.
 }
 ```
 
+Please note that this is research software / dataset and may contain bugs or other issues – please use it at your own risk. If you experience major problems with it, you may contact us, but please note that we do not have the resources to deal with all issues.
+
 The dataset contains 5 objects, *book*, *dinosaur*, *lemon*, *pig*, and *stone*.  Each object is captured by stereo [Lucid TRI050S-QC](https://thinklucid.com/ja/product/triton-5-mp-polarization-camera/) cameras.  Surface normals by photometric-stereo and correspondences by structured-light (Gray code) are also provided for reference.
 
 ![preview](preview.jpg "preview")
@@ -26,7 +28,7 @@ You can download the dataset from [this link](https://drive.google.com/file/d/1m
 The ZIP file contains 5 directories named `book`, `dinosaur`, `lemon`, `pig`, and `stone` each of which has the following files.
 
 * `calib.npz`
-  * `K`: Intrinsic parameter (same for L and R).
+  * `K`: Intrinsic parameter (same for L and R cameras).
   * `Rmat_W2{L,R}` and `Tvec_W2{L,R}`: Extrinsic parameter to transform a point `X` in WCS to CCS by `Rmat_W2{L,R}` @ `X` + `Tvec_W2{L,R}`.
   * `light_dir`: 5 light directions (from obj to light).
 * `gt.npz`
